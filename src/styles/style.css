@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+  font-family: 'Source Code Pro', monospace; 
+  background-color: #000;
+  color: #00ff00; 
+  margin: 0;
+  padding: 20px;
+  line-height: 1.5; 
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5); 
+  height: 100vh; 
+}
+
+/* Map Styles */
+#map {
+  height: 500px;
+  width: 100%;   
+  border: 1px solid #00ff00; 
+}
+
+/* Title Styling */
+h1 {
+  font-family: 'Source Code Pro', monospace; 
+  color: #00ff00; /* Neon green color */
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.7); 
+  transition: transform 0.3s ease-in-out; 
+  font-size: 2rem;
+}
+
+h1:hover {
+  transform: translateY(-5px); 
+  color: #00cc00; 
+}
+
+/* Flight Data Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #00ff00;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  font-family: 'Source Code Pro', monospace;
+  background-color: #000; 
+  color: #00ff00; 
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.7); 
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00ff00;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00cc00;
+}
+
+/* Button Styling */
+button {
+  background-color: #000;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  padding: 10px;
+  cursor: pointer;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.7);
+}
+
+button:hover {
+  background-color: #00ff00;
+  color: #000;
+  transform: translateY(-2px);
+}
+
+/* Terminal-like Cursor */
+body {
+  cursor: url('https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/ffffff/external-cursor-basic-ui-elements-flatart-icons-flat-flatarticons.png'), auto;
+}

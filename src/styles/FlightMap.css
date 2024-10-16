@@ -1,0 +1,7 @@
+#map {
+    height: 500px;
+    width: 100%;
+    border: 2px solid #ccc; /* Optional: Add a border to the map */
+    border-radius: 8px;     /* Optional: Add rounded corners */
+  }
+  
